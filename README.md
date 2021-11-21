@@ -47,7 +47,7 @@ To send a message to Telegram group or channel, you should first create your own
 1. Simple test ```curl 'https://api.telegram.org/botYourToken/sendMessage?chat_id=channel_id&text=test message'```
 2. create the bash script. (Thanks to phael for the hint)
 3. ```cd ~/```
-4. ```nano telegram-notification.sh```
+4. ```nano telegram-notification.sh``` customize the script according to your identity or vote account
 ```
 #!/bin/bash
 #you can use here your Identity or Voteaccount
